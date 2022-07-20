@@ -1,5 +1,5 @@
 {
-  "name": "Strapi-Backend",
+  "name": "strapi-backend",
   "private": true,
   "version": "0.1.0",
   "description": "The Strapi backend of a JAMstack e-commerce platform built for a Udemy course.",
