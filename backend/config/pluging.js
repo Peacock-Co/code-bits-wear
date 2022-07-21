@@ -5,8 +5,8 @@ module.exports = ({ env }) => ({
       apikey: env("SENDGRID_API_KEY"),
     },
     settings: {
-      defaultFrom: env("EMAIL_DEFAULT_FROM"),
-      defaultReplyTo: env("EMAIL_DEFAULT_REPLY_TO"),
+      defaultFrom: env("pavaoleonardo00@gmail.com"),
+      defaultReplyTo: env("pavaoleonardo00@gmail.com"),
     },
   },
 });
