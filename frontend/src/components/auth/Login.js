@@ -166,6 +166,9 @@ export default function Login({
         dispatchFeedback(
           setSnackbar({ status: "success", message: "Reset code sent!" })
         )
+        setTimeout(() => {
+          setForgot(false)
+        }, 6000)
       })
       .catch(error => {
         const { message } = error.response.data.message[0].messages[0]
